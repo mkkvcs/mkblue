@@ -1,0 +1,43 @@
+name: mkblue-pc
+description: 
+
+base-image: ghcr.io/secureblue/kinoite-main-userns-hardened
+image-version: latest 
+
+modules:
+  - type: files
+    files:
+      - source: system
+        destination: / 
+
+  - type: rpm-ostree
+    repos:
+        - https://raw.githubusercontent.com/MkKvcs/fedora/main/protonvpn-stable.repo
+    install:
+        - zsh
+        - neovim
+        - solaar
+        - corectrl
+        - fastfetch
+        - proton-vpn-gnome-desktop
+
+  - type: default-flatpaks
+    notify: true 
+    user:
+      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
+      install:
+        - com.spotify.Client
+        - com.discordapp.Discord
+        - org.signal.Signal
+        - org.videolan.VLC
+        - org.fedoraproject.MediaWriter
+        - org.onlyoffice.desktopeditors
+        - io.github.shiftey.Desktop
+        - org.qbittorrent.qBittorrent
+        - org.kde.okular
+        - org.kde.gwenview
+        - com.jetbrains.Rider
+        - com.stremio.Stremio
+        
+  - type: signing 

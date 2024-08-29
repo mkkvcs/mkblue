@@ -12,7 +12,7 @@ modules:
         
   - type: rpm-ostree
     repos:
-      - https://raw.githubusercontent.com/MkKvcs/fedora/main/protonvpn-stable.repo
+      - https://raw.githubusercontent.com/mkkvcs/fedora/main/protonvpn-stable.repo
     install:
       - zsh
       - neovim

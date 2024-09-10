@@ -41,5 +41,7 @@ modules:
         - com.stremio.Stremio
         - org.gnome.Evince
         - org.gnome.Extensions
+        - com.github.tchx84.Flatseal
+        - org.gnome.TextEditor
         
   - type: signing 

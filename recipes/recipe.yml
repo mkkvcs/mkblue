@@ -17,7 +17,6 @@ modules:
       - zsh
       - neovim
       - easyeffects
-      - proton-vpn-gnome-desktop
       - fastfetch
       - solaar
       

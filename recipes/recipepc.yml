@@ -19,6 +19,8 @@ modules:
         - solaar
         - corectrl
         - fastfetch
+        - fedpkg
+        - rpmdevtools
 
   - type: default-flatpaks
     notify: true 

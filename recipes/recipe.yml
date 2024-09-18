@@ -1,7 +1,7 @@
 name: mkblue-laptop
 description: 
 
-base-image: ghcr.io/secureblue/silverblue-main-userns-hardened
+base-image: ghcr.io/secureblue/kinoite-main-userns-hardened
 image-version: latest
 
 modules:
@@ -34,14 +34,10 @@ modules:
         - org.onlyoffice.desktopeditors
         - io.github.shiftey.Desktop
         - org.qbittorrent.qBittorrent
-        - net.nokyan.Resources
-        - org.gnome.Loupe
         - com.jetbrains.Rider
         - com.stremio.Stremio
-        - org.gnome.Evince
-        - org.gnome.Extensions
-        - com.github.tchx84.Flatseal
-        - org.gnome.TextEditor
+        - org.kde.okular
+        - org.kde.gwenview
         
   - type: script
     scripts:

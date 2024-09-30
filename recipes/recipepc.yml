@@ -12,12 +12,14 @@ modules:
 
   - type: rpm-ostree
     repos:
+      - https://raw.githubusercontent.com/mkkvcs/fedora/refs/heads/main/protonvpn-stable.repo
     install:
         - zsh
         - neovim
         - solaar
         - corectrl
         - fastfetch
+        - proton-vpn-gnome-desktop
 
   - type: default-flatpaks
     notify: true 

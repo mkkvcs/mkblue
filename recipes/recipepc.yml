@@ -36,8 +36,8 @@ modules:
         - io.github.shiftey.Desktop
         - org.qbittorrent.qBittorrent
         - com.jetbrains.Rider
-        - com.kde.okular
-        - com.kde.gwenview
+        - org.kde.okular
+        - org.kde.gwenview
         
         
   - type: signing 

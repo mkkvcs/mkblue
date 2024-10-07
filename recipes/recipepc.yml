@@ -14,12 +14,12 @@ modules:
     repos:
       - https://raw.githubusercontent.com/mkkvcs/fedora/refs/heads/main/protonvpn-stable.repo
     install:
-        - zsh
-        - neovim
-        - solaar
-        - corectrl
-        - fastfetch
-        - proton-vpn-gnome-desktop
+      - zsh
+      - neovim
+      - solaar
+      - corectrl
+      - fastfetch
+      - proton-vpn-gnome-desktop
 
   - type: default-flatpaks
     notify: true 
@@ -36,6 +36,7 @@ modules:
         - io.github.shiftey.Desktop
         - org.qbittorrent.qBittorrent
         - com.jetbrains.Rider
+        - com.visualstudio.code
         - org.kde.okular
         - org.kde.gwenview
         

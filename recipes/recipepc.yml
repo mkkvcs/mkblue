@@ -20,6 +20,7 @@ modules:
       - corectrl
       - fastfetch
       - proton-vpn-gnome-desktop
+      - gamescope
 
   - type: default-flatpaks
     notify: true 

@@ -20,8 +20,7 @@ modules:
       - corectrl
       - fastfetch
       - proton-vpn-gnome-desktop
-      - gamescope
-
+      
   - type: default-flatpaks
     notify: true 
     user:
@@ -40,6 +39,5 @@ modules:
         - com.visualstudio.code
         - org.kde.okular
         - org.kde.gwenview
-        
         
   - type: signing 

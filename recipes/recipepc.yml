@@ -2,7 +2,7 @@ name: mkblue-pc
 description: 
 
 base-image: ghcr.io/secureblue/kinoite-main-userns-hardened
-image-version: latest 
+image-version: br-staging-40 
 
 modules:
   - type: files

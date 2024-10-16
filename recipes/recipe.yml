@@ -2,7 +2,7 @@ name: mkblue-laptop
 description: 
 
 base-image: ghcr.io/secureblue/kinoite-main-userns-hardened
-image-version: latest
+image-version: br-next-41
 
 modules:
   - type: files
@@ -12,14 +12,12 @@ modules:
         
   - type: rpm-ostree
     repos:
-      - https://raw.githubusercontent.com/mkkvcs/fedora/refs/heads/main/protonvpn-stable.repo
     install:
       - zsh
       - neovim
       - easyeffects
       - fastfetch
       - solaar
-      - proton-vpn-gnome-desktop
       
   - type: default-flatpaks
     notify: true

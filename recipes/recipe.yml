@@ -34,7 +34,6 @@ modules:
         - io.github.shiftey.Desktop
         - org.qbittorrent.qBittorrent
         - com.jetbrains.Rider
-        - com.visualstudio.code
         - org.kde.okular
         - org.kde.gwenview
         

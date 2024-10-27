@@ -1,7 +1,7 @@
 name: mkblue-pc
 description: 
 
-base-image: ghcr.io/secureblue/kinoite-main-userns-hardened
+base-image: ghcr.io/secureblue/cosmic-main-userns-hardened
 image-version: br-next-41 
 
 modules:

@@ -1,7 +1,7 @@
 name: mkblue-laptop
 description: 
 
-base-image: ghcr.io/secureblue/kinoite-main-userns-hardened
+base-image: ghcr.io/secureblue/silverblue-main-userns-hardened
 image-version: br-next-41
 
 modules:
@@ -34,8 +34,7 @@ modules:
         - io.github.shiftey.Desktop
         - org.qbittorrent.qBittorrent
         - com.jetbrains.Rider
-        - org.kde.okular
-        - org.kde.gwenview
+        - com.protonvpn.www
         
   - type: script
     scripts:

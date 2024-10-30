@@ -34,9 +34,6 @@ modules:
         - io.github.shiftey.Desktop
         - org.qbittorrent.qBittorrent
         - com.jetbrains.Rider
-        
-  - type: script
-    scripts:
-      - chromium-pc.sh  
+        - com.protonvpn.www
       
   - type: signing 

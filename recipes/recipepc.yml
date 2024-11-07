@@ -1,7 +1,7 @@
 name: mkblue-pc
 description: 
 
-base-image: ghcr.io/secureblue/silverblue-main-userns-hardened
+base-image: ghcr.io/secureblue/kinoite-main-userns-hardened
 image-version: latest
 
 modules:
@@ -35,12 +35,9 @@ modules:
         - org.qbittorrent.qBittorrent
         - com.jetbrains.Rider
         - com.protonvpn.www
-        - org.gnome.Evince
-        - org.gnome.Extensions
-        - net.nokyan.Resources
-        - org.gnome.Calculator
-        - org.gnome.baobab
-        - org.gnome.Loupe
-        - org.gnome.TextEditor
+        - org.kde.okular
+        - org.kde.gwenview
+        - org.kde.kate
+
       
   - type: signing 

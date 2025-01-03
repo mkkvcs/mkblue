@@ -1,4 +1,5 @@
 name: mkblue-laptop
+description: ha
 
 base-image: ghcr.io/secureblue/kinoite-main-hardened
 image-version: latest

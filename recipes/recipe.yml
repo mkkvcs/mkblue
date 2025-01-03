@@ -1,7 +1,7 @@
 name: mkblue-laptop
 description: 
 
-base-image: ghcr.io/secureblue/kinoite-main-userns-hardened
+base-image: ghcr.io/secureblue/kinoite-main-hardened
 image-version: latest
 
 modules:

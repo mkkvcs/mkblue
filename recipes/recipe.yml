@@ -1,5 +1,4 @@
 name: mkblue-laptop
-description: 
 
 base-image: ghcr.io/secureblue/kinoite-main-hardened
 image-version: latest
@@ -11,7 +10,6 @@ modules:
         destination: /
         
   - type: rpm-ostree
-    repos:
     install:
       - zsh
       - neovim

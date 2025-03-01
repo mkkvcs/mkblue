@@ -1,7 +1,7 @@
 name: mkblue-laptop
 description: ha
 
-base-image: ghcr.io/secureblue/kinoite-main-hardened
+base-image: ghcr.io/secureblue/silverblue-main-hardened
 image-version: latest
 
 modules:
@@ -15,7 +15,6 @@ modules:
       - zsh
       - neovim
       - easyeffects
-      - fastfetch
       - solaar
       
   - type: default-flatpaks
@@ -34,11 +33,10 @@ modules:
         - org.qbittorrent.qBittorrent
         - com.jetbrains.Rider
         - com.protonvpn.www
-        - org.kde.okular
-        - org.kde.gwenview
-        - org.kde.kate
-
-        
+        - org.gnome.Extensions
+        - org.gnome.Papers
+        - org.gnome.TextEditor
+      
   - type: script
     scripts:
       - chromium-laptop.sh
